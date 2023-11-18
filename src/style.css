@@ -1,0 +1,40 @@
+.calci{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 30vw;
+    height: 60vh;
+    margin-top: 10%;
+    margin-left: 34%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: -30px 20px 100px 10px rgba(251, 24, 78, 0.47);
+}
+.calci>input{
+    margin-top: 20px;
+    width: 17vw;
+    padding: 14px;
+    border: 2px solid #2B2B2B;
+}
+input::placeholder{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: bottom;
+}
+
+.calci2{
+    width: 17vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.calci2>p{
+    padding: 10px 18px;
+    background: #2B2B2B;
+    color: white;
+}
