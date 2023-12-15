@@ -1,12 +1,12 @@
 import React from "react";
-import Input from "./Components/inputs";
-import Addition from "./Components/addition";
+import Input from "./Components/Inputs";
+import Addition from "./Components/Addition";
 
 import { useState } from "react";
-import Output from "./Components/output";
-import Subtraction from "./Components/substract";
-import Multiply from "./Components/multiply";
-import Divide from "./Components/divide";
+import Output from "./Components/Output";
+import Subtraction from "./Components/Substract";
+import Multiply from "./Components/Multiplysd"
+import Divide from "./Components/Divide";
 
 const App = () =>{
 

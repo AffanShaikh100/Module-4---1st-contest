@@ -46,4 +46,5 @@ const Multiply=({setBool,inp1,inp2,setNum})=>{
         </div>
     )
 }
+
 export default Multiply
