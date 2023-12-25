@@ -31,12 +31,12 @@ const Addition = ({setBool,inp1,inp2,setNum}) =>{
             }
             else if(!inp2){
                 setBool(false)
-                setNum("Num 2 cannot be found")
+                setNum("Num 2 cannot be found");
             }
             
             else if(!inp1){
                 setBool(false)
-                setNum("Num 1 cannot be found")
+                setNum("Num 1 cannot be found");
             }
         
         }

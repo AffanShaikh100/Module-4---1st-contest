@@ -15,6 +15,8 @@ const App = () =>{
     let [inp2,setInp2] = useState("")
     let [nums,setNum] = useState("")
     let [bool,setBool] = useState("")
+
+
     return(
         <div className="calci">
             <h1>React Calculator</h1>
@@ -27,7 +29,6 @@ const App = () =>{
               <Multiply setBool={setBool} inp1={inp1} inp2={inp2} setNum={setNum}/>
               <Divide setBool={setBool} inp1={inp1} inp2={inp2} setNum={setNum}/>
             </div>
-            
             <Answer nums={nums} bool={bool}/>
         
         </div>
@@ -35,5 +36,3 @@ const App = () =>{
 }
 
 export default App
-
-
