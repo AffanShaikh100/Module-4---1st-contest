@@ -12,11 +12,8 @@ const App = () =>{
 
     let [inp1,setInp1] = useState("")
     let [inp2,setInp2] = useState("")
-
     let [nums,setNum] = useState("")
-
-    let [bool,setBool] = useState(false)
-
+    let [bool,setBool] = useState("")
     return(
         <div className="calci">
             <h1>React Calculator</h1>
@@ -24,7 +21,7 @@ const App = () =>{
             <Input setInp1={setInp1} setInp2={setInp2}/>
 
             <div className="calci2">
-              <Addition setBool={setBool} inp1={inp1} inp2={inp2} setNum={setNum}/>
+              <Addition nums={nums} bool={bool} setBool={setBool} inp1={inp1} inp2={inp2} setNum={setNum}/>
               <Subtraction setBool={setBool} inp1={inp1} inp2={inp2} setNum={setNum}/>
               <Multiply setBool={setBool} inp1={inp1} inp2={inp2} setNum={setNum}/>
               <Divide setBool={setBool} inp1={inp1} inp2={inp2} setNum={setNum}/>

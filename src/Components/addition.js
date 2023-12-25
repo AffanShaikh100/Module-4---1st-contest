@@ -21,6 +21,7 @@ const Addition = ({setBool,inp1,inp2,setNum}) =>{
              setBool(true)
              let value1 = parseInt(inp1);
              let value2 = parseInt(inp2);
+
              setNum(value1+value2)
         }
         else{
@@ -39,6 +40,8 @@ const Addition = ({setBool,inp1,inp2,setNum}) =>{
             }
         
         }
+
+        
     }
 
     return(
