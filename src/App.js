@@ -3,10 +3,11 @@ import Input from "./Components/Inputs";
 import Addition from "./Components/Addition";
 
 import { useState } from "react";
-import Output from "./Components/Output";
 import Subtraction from "./Components/Substract";
 import Multiply from "./Components/Multiplysd"
 import Divide from "./Components/Divide";
+import Answer from "./Components/Answer";
+
 
 const App = () =>{
 
@@ -27,7 +28,7 @@ const App = () =>{
               <Divide setBool={setBool} inp1={inp1} inp2={inp2} setNum={setNum}/>
             </div>
             
-            <Output nums={nums} bool={bool}/>
+            <Answer nums={nums} bool={bool}/>
         
         </div>
     )
